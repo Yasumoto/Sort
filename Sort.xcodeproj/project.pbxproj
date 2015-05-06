@@ -6,9 +6,16 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		40804F5F1AF9C7020067ED1F /* Sorter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40804F5E1AF9C7020067ED1F /* Sorter.m */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		40804F511AF9C69E0067ED1F /* Sort.codaplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Sort.codaplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		40804F551AF9C69E0067ED1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40804F5D1AF9C7020067ED1F /* Sorter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sorter.h; sourceTree = "<group>"; };
+		40804F5E1AF9C7020067ED1F /* Sorter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sorter.m; sourceTree = "<group>"; };
+		40804F601AF9C7D90067ED1F /* CodaPlugInsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CodaPlugInsController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +49,9 @@
 			isa = PBXGroup;
 			children = (
 				40804F541AF9C69E0067ED1F /* Supporting Files */,
+				40804F5D1AF9C7020067ED1F /* Sorter.h */,
+				40804F5E1AF9C7020067ED1F /* Sorter.m */,
+				40804F601AF9C7D90067ED1F /* CodaPlugInsController.h */,
 			);
 			path = Sort;
 			sourceTree = "<group>";
@@ -120,6 +130,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40804F5F1AF9C7020067ED1F /* Sorter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
