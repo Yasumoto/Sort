@@ -20,11 +20,19 @@
 	<string>????</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>CodaPlugInSupportedAPIVersion</key>
-	<integer>7</integer>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2015 bjoli.com. All rights reserved.</string>
 	<key>NSPrincipalClass</key>
 	<string>Sorter</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>10.7.0</string>
+	<key>CodaPlugInSupportedAPIVersion</key>
+	<integer>7</integer>
+	<key>CodaPlugInMinimumAPIVersion</key>
+	<string>7</string>
+	<key>CodaAuthorString</key>
+	<string>Joe Smith</string>
+	<key>CodaDescriptionString</key>
+	<string>Sort selected lines of text</string>
 </dict>
 </plist>
